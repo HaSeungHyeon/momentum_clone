@@ -17,7 +17,6 @@ function saveName(text) {
 
 function paintGreeting(text) {
   const hours = getHours();
-  console.log(hours);
   greeting.classList.add(SHOWING_CN);
   form.classList.remove(SHOWING_CN);
   if (hours >= 05 && hours < 12) {
