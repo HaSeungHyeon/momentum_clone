@@ -9,7 +9,7 @@ function genNumber() {
 
 function paintImage(n) {
   const img = new Image();
-  img.src = `C:/Users/user/Desktop/javascript/momontum/images/${n}.jpg`;
+  img.src = `https://haseunghyeon.github.io/momentum_clone/images/${n}.jpg`;
   img.classList.add("bgImage");
   body.prepend(img);
 }
