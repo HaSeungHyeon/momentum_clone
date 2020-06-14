@@ -53,7 +53,7 @@ function loadName() {
 
 function init() {
   loadName();
-  setInterval(loadName, 1000);
+  setInterval(loadName, 5000);
 }
 
 init();
